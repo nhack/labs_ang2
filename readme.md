@@ -4,11 +4,6 @@
 * node: https://nodejs.org/en/download/
   * `npm install -g typescript`
 
-* ATOM: https://atom.io/
-    * atom-prettify
-    * atom-typescript
-    * cssfmt
-    * pretty-json
-    * terminal-plus
+* INSTALL YARN: `npm install -g yarn`
 
-* GITHUB: https://desktop.github.com/
+* INSTALL WEBSTORM: https://www.jetbrains.com/webstorm/
