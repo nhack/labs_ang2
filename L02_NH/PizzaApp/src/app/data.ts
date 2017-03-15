@@ -3,7 +3,7 @@
  */
 import {Pizza} from "./pizza";
 
-export let PIZZAS: Pizza[] = [
+export let PIZZAS: Array<Pizza> = [
   {
     name: '4 STAGIONI',
     price: 27.5,
