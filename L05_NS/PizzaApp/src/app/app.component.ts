@@ -1,6 +1,5 @@
 import {Component, ViewEncapsulation} from "@angular/core";
 import {Pizza} from "./pizza";
-import {PIZZAS} from "./data";
 import {PizzaService} from "./pizza.service";
 
 @Component({
@@ -13,6 +12,6 @@ export class AppComponent {
   private pizzas: Array<Pizza>;
 
   constructor(private pizzaService: PizzaService) {
-    this.pizzas = PIZZAS;
+    this.pizzas = this.pizzaService.getPizzas();
   }
 }
