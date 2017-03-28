@@ -5,6 +5,7 @@ import {Pizza} from "./pizza";
 
 export let PIZZAS: Array<Pizza> = [
   {
+    _id: "1234",
     name: '4 STAGIONI',
     price: 27.5,
     weight: 550,
@@ -25,6 +26,7 @@ export let PIZZAS: Array<Pizza> = [
     }]
   },
   {
+    _id: "2345",
     name: 'DIAVOLA',
     price: 25,
     weight: 450,
