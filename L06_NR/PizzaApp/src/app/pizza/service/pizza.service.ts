@@ -6,6 +6,7 @@ import {Review} from "../domain/review";
  */
 export interface IPizzaService {
   getPizzas(): Promise<Array<Pizza>>;
+  getPizza(id: string): Promise<Pizza>;
   addReview(pizza: Pizza, review: Review): Promise<Pizza>;
 }
 
