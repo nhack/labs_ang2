@@ -3,9 +3,9 @@
  */
 import {Component, Inject, OnInit} from "@angular/core";
 
-import {NavigationService} from "../common/navigation.service";
-import {IPizzaService, PIZZA_SERVICE} from "./service/pizza.service";
-import {Pizza} from "./domain/pizza";
+import {NavigationService} from "../../../common/navigation.service";
+import {IPizzaService, PIZZA_SERVICE} from "../../service/pizza.service";
+import {Pizza} from "../../domain/pizza";
 
 @Component({
   selector: 'pizza-list',
