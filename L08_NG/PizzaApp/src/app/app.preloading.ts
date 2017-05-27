@@ -9,6 +9,6 @@ import {Observable} from "rxjs/Observable";
 @Injectable()
 export class PreloadSelectedModules implements PreloadingStrategy {
   preload(route: Route, load: () => Observable<any>): Observable<any> {
-    return route.data['preload'] ? load() : of(null);
+    return route.data && route.data['preload'] ? load() : of(null);
   }
 }

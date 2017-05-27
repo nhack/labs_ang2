@@ -6,7 +6,7 @@ import {PizzaComponent} from "./components/pizza/pizza.component";
 import {PizzaListComponent} from "./components/pizzaList/pizzaList.component";
 
 export const PIZZA_ROUTES: Routes = [{
-  path: 'pizzas', children: [
+  path: '', children: [
     {path: '', component: PizzaListComponent},
     {path: ':id', component: PizzaComponent}
   ]

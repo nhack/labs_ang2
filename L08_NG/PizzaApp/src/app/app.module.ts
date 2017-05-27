@@ -3,7 +3,6 @@ import {NgModule} from "@angular/core";
 import {RouterModule} from "@angular/router";
 import {AppComponent} from "./app.component";
 import {NavigationService} from "./common/navigation.service";
-import {PizzaModule} from "./pizza/pizza.module";
 import {ROUTES} from "./app.routes";
 import {PreloadSelectedModules} from "./app.preloading";
 
@@ -13,7 +12,6 @@ import {PreloadSelectedModules} from "./app.preloading";
   ],
   imports: [
     BrowserModule,
-    PizzaModule,
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadSelectedModules})
   ],
   providers: [NavigationService, PreloadSelectedModules],
